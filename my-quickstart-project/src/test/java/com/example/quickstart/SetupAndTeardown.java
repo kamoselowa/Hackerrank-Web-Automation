@@ -12,7 +12,7 @@ public class SetupAndTeardown {
     public void Setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("cd");
+        driver.get("https://www.hackerrank.com/auth/login");
 
     }
 
